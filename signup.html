@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>create new account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main1.css">
+</head>
+<body>
+    <!--start sign up page-->
+    <div class="signup-form">
+        <div class="header">
+            <h2>sign up page</h2>
+        </div>
+        <form >
+            <div class="form-group">
+                <label>user name</label>
+                <input type="text" class="form-control" name="user_name" autocomplete="off" required placeholder="someone....">
+            </div>
+            <div class="form-group">
+                <label>password</label>
+                <input type="password" class="form-control" name="user_pass" autocomplete="off" required placeholder="password">
+            </div>
+            <div class="form-group">
+                <label>email</label>
+                <input type="email" class="form-control" name="user_email" autocomplete="off" required placeholder="someone@site.com">
+            </div>
+          
+            <div class="form-group">
+                <label>gender</label>
+                <select name="user_gandar" class="form-control" required>
+                    <option  disabled="" selected>select your gender</option>
+                    <option >male</option>
+                    <option >female</option>
+                </select>
+            </div>
+            <div class="form-group">
+            <label class="checkbox-inline"><input type="checkbox" required>I accept the 
+            <a href="#">terms of use</a> &amp; <a href="#">privacy policy</a></label>
+            </div><br>
+            <div class="form-group">
+            <button class="btn btn-primary btn-block btn-lg" type="submit" name="sign_up">sign up</button>
+            </div>
+        </form>
+        <div class="small text-center" style='color:#587469;'>already have an account? <a href="signin.html">sign in here</a></div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login to your account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main1.css">
+</head>
+<body>
+    <!--start signin page-->
+    <div class="signin-form">
+        <div class="header">
+            <h2>sign in page</h2>
+        </div>
+        <form action="signin_user.php" method="POST">
+            <div class="form-group">
+                <label>email</label>
+                <input type="email" class="form-control" name="email" autocomplete="off" required placeholder="someone@site.com">
+            </div>
+            <div class="form-group">
+                <label>password</label>
+                <input type="password" class="form-control" name="password" autocomplete="off" required placeholder="password">
+            </div>
+            <div class="small">forgot password? <a href="forgot_pass.php">click here</a></div><br>
+            <div class="form-group">
+            <button class="btn btn-primary btn-block btn-lg" type="submit">sign in</button>
+            </div>
+        </form>
+        <div class="small text-center" style='color:#587469;'>don't have an account? <a href="signup.html">click here</a></div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+</body>
+</html>
